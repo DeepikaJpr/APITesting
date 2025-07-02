@@ -1,0 +1,63 @@
+# === Java ===
+*.class
+*.log
+*.swp
+*.tmp
+*.bak
+*.orig
+
+# === Maven ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# === Gradle ===
+/build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === Eclipse ===
+.classpath
+.project
+.settings/
+
+# === VS Code ===
+.vscode/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Environment/Secrets ===
+.env
+.env.*
+config.properties
+*.key
+*.pem
+*.crt
+*.pfx
+*.jks
+secrets.json
+tokens.json
+
+# === Logs & Reports ===
+*.log
+/logs/
+/reports/
+/allure-results/
+/surefire-reports/
+/test-output/
+
+# === REST Assured JSON files (optional) ===
+*.json
+*.xml
+
+# === Others ===
+*.zip
+*.tar.gz
+*.tgz
